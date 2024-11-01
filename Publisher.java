@@ -1,8 +1,8 @@
 public class Publisher {
-    private String  publisherName;
+    private String publisherName;
     private Contacts contact;
 
-    public Publisher (String publisherName, Contacts contact) {
+    public Publisher(String publisherName, Contacts contact) {
         setPublisherName(publisherName);
         this.contact = contact;
     }
@@ -17,7 +17,7 @@ public class Publisher {
 
     @Override
     public String toString() {
-        String msg= "The publisher is " +publisherName + " and its contact details are " + contact.toString();
+        String msg = "The publisher is " + publisherName + " and its contact details are " + contact.toString();
         return msg;
     }
 }
