@@ -9,7 +9,7 @@ public interface IPublication {
 
     public String getTitle();
 
-    public Author[] geAuthors();
+    public Author[] getAuthors();
 
     public Publisher getPublisher();
 
